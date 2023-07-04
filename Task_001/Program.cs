@@ -29,7 +29,7 @@ return count;
 }
 void PrintArray(int[] tempArray, int even)
 {
-    System.Console.WriteLine("[" + string.Join(" | ", temparray) + "]" + "->" + even);
+    System.Console.WriteLine("[" + string.Join(" | ", tempArray) + "]" + "->" + even);
 }
 
 //-----------------------------------------------------------------------
