@@ -18,15 +18,15 @@ void FillArray(int[] tempArray, int leftRange, int rightRange)
 }
 int SumNegativeNumberArray(int[] tempArray)
 {
-  int count = 0;
-  for (int i = 0; i < tempArray.Length; i++)
-  {
-    if (i % 2 != 0)
-	{ 
-	 count +=tempArray[i];
-	}
-  }
-return count;
+    int count = 0;
+    for (int i = 0; i < tempArray.Length; i++)
+    {
+        if (i % 2 != 0)
+        {
+            count += tempArray[i];
+        }
+    }
+    return count;
 }
 void PrintArray(int[] tempArray)
 {

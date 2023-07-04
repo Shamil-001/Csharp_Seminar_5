@@ -17,15 +17,15 @@ void FillArray(int[] tempArray)
 }
 int EvenNumberArray(int[] tempArray)
 {
-  int count = 0;
-  for (int i = 0; i < tempArray.Length; i++)
-  {
-    if (tempArray[i] % 2 == 0)
-	{ 
-	 count++;
-	}
-  }
-return count;
+    int count = 0;
+    for (int i = 0; i < tempArray.Length; i++)
+    {
+        if (tempArray[i] % 2 == 0)
+        {
+            count++;
+        }
+    }
+    return count;
 }
 void PrintArray(int[] tempArray, int even)
 {
